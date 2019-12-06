@@ -141,6 +141,34 @@ app.post(baseUrl + 'user', (req, res) => {
 
 
 
+app.get(baseUrl + 'user', function (req, res) {
+    try {
+        var fichier = 'files/users.json';
+        var data = fs.readFileSync(fichier);
+        var data = JSON.parse(data);
+        var users = data.users;
+         //erreur de mot de passe
+         var message = {
+            name: 'Get all users',
+            status: 'success',
+            status: 200,
+            message: users,
+        };
+        res.json(message);
+    }catch(e){
+         //erreur de mot de passe
+         var message = {
+            name: 'Error',
+            status: 'failed',
+            status: 404,
+            message: "erreur de mot de passe",
+            login: false
+        };
+        res.json(message);
+    }
+}
+);
+
 
 app.post(baseUrl + 'connexion', function (req, res) {
     try {
