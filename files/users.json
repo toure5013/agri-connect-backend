@@ -1,0 +1,45 @@
+{
+    "users": [{
+        "id": 1,
+        "nom": "TOURE",
+        "prenom": "SOULEYMANE",
+        "telephone": 44334233,
+        "password": 12345678
+    }, {
+        "id": 2,
+        "nom": "TOURE",
+        "prenom": "SOULEYMANE",
+        "telephone": "08175631",
+        "password": "00000"
+    }, {
+        "id": 3,
+        "nom": "TOURE",
+        "prenom": "SOULEYMANE",
+        "telephone": "08030133",
+        "password": "00000"
+    }, {
+        "id": 4,
+        "nom": "TOURE",
+        "prenom": "SOULEYMANE",
+        "telephone": "44334232",
+        "password": "00000000"
+    }, {
+        "id": 5,
+        "nom": "TOURE",
+        "prenom": "SOULEYMANE",
+        "telephone": "44334232",
+        "password": "0000"
+    }, {
+        "id": 6,
+        "nom": "TOURE",
+        "prenom": "SOULEYMANE",
+        "telephone": "44334232",
+        "password": "00000"
+    }, {
+        "id": 7,
+        "nom": "TOURE",
+        "prenom": "SOULEYMANE",
+        "telephone": "44334232",
+        "password": "000000"
+    }]
+}
