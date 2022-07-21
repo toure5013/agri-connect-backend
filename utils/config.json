@@ -1,0 +1,8 @@
+ {
+    "dialect": "mariadb",
+    "host"  : "localhost",
+    "username"  : "root",
+    "password"  : "",
+    "databaseName"  : "api",
+    "debug"    :  true
+}
